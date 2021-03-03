@@ -60,7 +60,6 @@ def merge_sort(A):
 def partition(items, low, high):
   pivot = items[high] #last element pivot
   i = low -1
-
   #move items to left if smaller and right if bigger
   for j in range(low, high):
     if items[j] <= pivot:
